@@ -12,3 +12,7 @@ install.packages("remotes")
   
 # Install the bsfbn package from GitHub
 remotes::install_github("fnascimento-ucl/bsfbn")
+
+# loand and run app
+library(bsfbn)
+launch_app()
