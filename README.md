@@ -6,8 +6,9 @@
 ## Installation
 Install the current version from GitHub:
 
-  # Install remotes
-  install.packages("remotes")
+```r
+# Install remotes
+install.packages("remotes")
   
-  # Install the bsfbn package from GitHub
-  remotes::install_github("fnascimento-ucl/bsfbn")
+# Install the bsfbn package from GitHub
+remotes::install_github("fnascimento-ucl/bsfbn")
