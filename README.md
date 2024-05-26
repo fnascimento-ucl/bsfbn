@@ -1,7 +1,7 @@
 # bsfbn: Basic Statistics for Basic Neuroscientists
 
 ## Description
-`bsfbn` is an R package that provides a Shiny R application for data analysis using estimation statistics
+`bsfbn` is an R package that provides a Shiny R application for statistical data analysis using variance component methods and estimation statistics
 
 ## Installation
 Install the current version from GitHub:
