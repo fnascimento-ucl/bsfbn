@@ -53,13 +53,13 @@ plots_data_representation_superplot_ui <- function() {
                  column(width = 2, div(actionButton("reset_superplot", "Clear plot", icon = icon("trash")), style = "margin-left: 10px;"))
                ),
                
-               
                #adds mean or median choices for plotting
                radioButtons("mean_or_median_superplot","Choose statistic to display:",               
                             choices = list("Mean with SD" = "mean",
                                            "Median with IQR" = "median"),
                             selected = "mean")
             ),
+            
             # bootstrapped effect size options
             conditionalPanel(
               condition = "input.superplot_tab == 'Superplot' && output.data_file_superplot_uploaded && input.group_var_superplot.length > 0 && input.x_var_superplot.length > 0",

@@ -4,8 +4,6 @@
 
 plot_modal <- function(tab_id) {
   
-    #################MODAL STARTS###############################################
-    ############################################################################
     bsModal(id = paste0("modal_", tab_id), title = "Plot options", trigger = paste0("options_", tab_id), size = "large",
             
             tabsetPanel(id = paste0("panels_options_", tab_id),
@@ -74,7 +72,7 @@ plot_modal <- function(tab_id) {
                                    condition = paste0("input.x_scale_type_", tab_id, " == 'log10' || input.x_scale_type_", tab_id, " == 'log2' || input.y_scale_type_", tab_id, " == 'log10' || input.y_scale_type_", tab_id, " == 'log2'"),
                                    selectInput(paste0("numeric_display_type_y_axis_", tab_id), "Numeric display", choices = c("Decimal", "Scientific"))
                                  ),
-                                 # # input for scale breaks
+                                 # # input for scale breaks (to be finished)
                                  # numericInput(paste0("x_num_breaks_", tab_id), "Number of X-axis Breaks:", value = NULL),
                                  # textInput(paste0("x_break_values_", tab_id), "X-axis Break Values:", value = NULL),
                                  # numericInput(paste0("y_num_breaks_", tab_id), "Number of Y-axis Breaks:", value = NULL),
@@ -439,5 +437,4 @@ plot_modal <- function(tab_id) {
               )
             )
   )
-    ##end of modal
 }

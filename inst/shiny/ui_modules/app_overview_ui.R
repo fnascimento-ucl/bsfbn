@@ -7,7 +7,7 @@ app_overview_ui <- function() {
       
       
       "<h3><b>Features:</b></h3>",
-      "<p style='margin-bottom: 10px;'> The app reads .xlsx files with the first row used as column data name. Generated graphs can be customized and plot settings saved and uploaded. Users can download all generated plots and statistics. </p>",
+      "<p style='margin-bottom: 10px;'> The app reads .xlsx or .csv files with the first row used as column data name. Generated graphs can be customized and plot settings saved and uploaded. Users can download all generated plots and statistics. </p>",
       "<ul>",
       "<li><b>Data Overview</b></li>",
       "<p style='margin-bottom: 0px;'> This feature is intended for initial data selection.</p>",

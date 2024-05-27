@@ -1,10 +1,9 @@
 #Tools for assessing variability components ####################################
 ################################################################################
 tools_variability_ui <- function (){
+  
   #option to display selectable tools to assess variability
   tabPanel("Intraclass correlation & Linear Mixed Models",
-           #adds tabset to Intraclass correlation coefficient
-           #tabsetPanel(
              #adds ICC to Intraclass correlation coefficient
              tabPanel(title = NULL,#"ICC plots",
                       sidebarLayout(
@@ -147,6 +146,7 @@ tools_variability_ui <- function (){
                                            ),
                           )
                         ),
+                        
                         mainPanel(
                           tabsetPanel(
                             id = "tabselected2",
@@ -226,6 +226,5 @@ tools_variability_ui <- function (){
                         )
                       )
              )
-          # )
   )
 }
