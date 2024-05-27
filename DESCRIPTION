@@ -1,12 +1,7 @@
 Package: bsfbn
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
-Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
+Title: Basic Statistics for Basic Neuroscientists
+Version: 0.0.0.1
+Authors : Filipe Nascimento <f.nascimento@ucl.ac.uk>,  ORCID 0000-0002-9426-2807
+Description: Open source Shiny R web application for data analysis using variance component tools and estimation statistics
+License: MIT License
 RoxygenNote: 7.3.1
